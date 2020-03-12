@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="stylesss.css">  
+  <meta charset="utf-8">
+  <meta name="description" content=" My first webpage, with image">
+  <meta name="keyword"content="MTHS,website">
+  <meta name="author"content="Andre Doan">
+  <meta name="viewport"content="width=device-width, intial scale=1.0">
+  <link rel="stylesheet" href="stylesss.css">
   <title>My Javascript Program </title>
   </head>
   <body>
@@ -16,10 +21,10 @@ You, you make me, make me, make me wanna cry
 And now I beg to see you dance just one more time
 </p></b></i>
 <p><q><i>I am the Way, the Truth, and the Life. No one comes to the Father except through me</p></q></i>
-<button id="texttoAlert">SendAlert</button>
+<button id="texttoalert">SendAlert</button>
 <input type="text" id="username">
 <script>
-  document.getElementById("texttoAlert").addEventListener("click", texttoAlert);
+  document.getElementById("texttoalert").addEventListener("click", texttoalert);
   function texttoAlert() {
   alert(document.getElementById("username").value)
 }
